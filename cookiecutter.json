@@ -1,8 +1,6 @@
 {
-    "toolkit_name": "<project_number>_description OR <FFRD Toolkit Name>",
-    "repo_name": "{{ cookiecutter.toolkit_name.lower().replace(' ', '-') }}",
+    "toolkit_name": "<FFRD Toolkit Name>",
     "author_name": "FFRD - FEMA Innovations Team",
     "description": "A short description of the toolkit.",
-    "python_interpreter": ["python3", "python"],
     "_copy_without_render": ["*.yml"]
 }
