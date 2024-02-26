@@ -13,7 +13,7 @@ To run the tests, try the following commands:
 import os
 import pytest
 
-from src import (
+from src.example_function import (
     example_function,
 )
 
