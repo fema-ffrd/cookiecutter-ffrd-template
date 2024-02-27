@@ -2,7 +2,7 @@
 
 # Script Description ##########################################################
 """
-Test functions for {{ cookiecutter.repo_name }}.
+Test functions for {{ cookiecutter.toolkit_name }}.
 
 To run the tests, try the following commands:
 
