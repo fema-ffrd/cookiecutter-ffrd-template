@@ -8,7 +8,7 @@ FFRD
 While developing your project/tool, keep the following tips in mind:  
 - Use the env.yaml file to keep pinned dependencies up-to-date and version controlled  
 - Develop tests and run tests during development (see test_python_template.py for instructions)  
-- Check your code's quality score using pylint: pylint --fail-under=9 src/{{ cookiecutter.repo_name }}/*.py  
+- Check your code's quality score using pylint: pylint --fail-under=9 src/{{ cookiecutter.toolkit_name }}/*.py  
 
 Project Organization
 ------------
