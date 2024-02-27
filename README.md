@@ -24,7 +24,7 @@ $ conda [micromamba] install -c conda-forge cookiecutter
 ```
 
 
-### To start a new project, run:
+### To start a new project:
 ------------
 
     $ cookiecutter https://github.com/fema-ffrd/cookiecutter-ffrd-template
