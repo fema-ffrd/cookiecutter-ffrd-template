@@ -1,14 +1,10 @@
 # FFRD Devcontainer Template
-Devcontainers allow interactive development inside of a docker container using VSCode. 
+Devcontainers enable interactive development within a Docker container using VSCode.  
 
-This devcontainer creates a reproducible environment for python projects using micromamba    
-environments (faster/more robust version of conda). 
+This devcontainer sets up a reproducible environment for Python projects using micromamba environments (a faster and more robust version of Conda).  
 
-When opening this repository in VSCode, you may be prompted to re-open the project in devcontainer.  
-Alternatively, you may access this option through the  
-View menu -> Command Palette -> DevContainers: Reopen in Container.
+When you open this repository in VSCode, you might receive a prompt to re-open the project in a devcontainer. Alternatively, you can access this option through the View menu by selecting Command Palette and then choosing DevContainers: Reopen in Container.  
 
-Other requirements:
-1. An environment file (env.yaml) is required placed in the .devcontainer folder of the  
-project for a reproducible python environment to be succussfully built.
-2. A docker engine installed locally (Docker Desktop or other). 
+Additional requirements:
+1. An environment file (env.yaml) is required in the .devcontainer folder.  
+2. Make sure you have a Docker engine installed locally (such as Docker Desktop).  
